@@ -1,8 +1,11 @@
 # LYPLayer
+基于AVPlayer的播放器，用了第三方框架Masonry加约束
+
 可以播放网络和本地视频，可以全屏、调节音量、亮度、进度等。
 
 使用方法
-- (void)viewDidLoad {
+
+```- (void)viewDidLoad {
     [super viewDidLoad];
     
     LYPlayerView *playerView = [LYPlayerView sharedPlayerView];
@@ -15,4 +18,5 @@
     [self.view addSubview:playerView];
     
 }
+```
 
