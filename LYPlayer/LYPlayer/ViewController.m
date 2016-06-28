@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
     LYPlayerView *playerView = [LYPlayerView sharedPlayerView];
     [playerView setViewFrame:CGRectMake(0, 0, 375, 250) videoURLStr:@"http://flv2.bn.netease.com/videolib3/1606/22/TunxQ4736/HD/TunxQ4736-mobile.mp4"];
     //点击关闭按钮回调的block
