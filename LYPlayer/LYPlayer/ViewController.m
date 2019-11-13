@@ -19,7 +19,8 @@
     [super viewDidLoad];
     
     LYPlayerView *playerView = [LYPlayerView sharedPlayerView];
-    [playerView setViewFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 250) videoURLStr:@"http://flv2.bn.netease.com/videolib3/1606/22/TunxQ4736/HD/TunxQ4736-mobile.mp4"];
+//    [playerView setViewFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 250) videoURLStr:@"http://flv2.bn.netease.com/videolib3/1606/22/TunxQ4736/HD/TunxQ4736-mobile.mp4"];
+    
     //点击关闭按钮回调的block
     [playerView setCloseBlock:^(UIButton *button) {
        NSLog(@"close-------%@",button);
